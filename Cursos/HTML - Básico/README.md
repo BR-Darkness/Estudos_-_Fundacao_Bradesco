@@ -21,3 +21,15 @@ Depois, os conteúdos explicam a importância do HTML, seus principais comandos 
 Após concluir este curso, você poderá prosseguir seus estudos matriculando-se no HTML – Avançado!
 
 <p align="right"><a href="https://www.ev.org.br/cursos/html-basico">Fonte: Fundação Bradesco</a></p>
+
+## Conteúdo Programático
+
+- Módulo 1 – Introdução
+- Módulo 2 – HTML e a Web
+- Módulo 3 – Criando um documento HTML
+- Módulo 4 – Formatando um documento HTML
+- Módulo 5 – Criando listas
+- Módulo 6 – Inserindo imagens
+- Módulo 7 – Criando links
+- Módulo 8 – Combinando tags
+- Módulo 9 – Usando imagens mapeadas
