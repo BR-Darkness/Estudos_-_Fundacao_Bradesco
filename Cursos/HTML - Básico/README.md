@@ -20,4 +20,4 @@ Depois, os conteúdos explicam a importância do HTML, seus principais comandos 
 <br><br>
 Após concluir este curso, você poderá prosseguir seus estudos matriculando-se no HTML – Avançado!
 
-<p align="right"><a href="https://www.ev.org.br/trilhas-de-conhecimento/crie-um-site-simples">Fonte: Fundação Bradesco</a></p>
+<p align="right"><a href="https://www.ev.org.br/cursos/html-basico">Fonte: Fundação Bradesco</a></p>
