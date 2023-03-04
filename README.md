@@ -20,7 +20,10 @@
 - Cursos 6
 
 > "Se você estiver interessado em iniciar o desenvolvimento Web pode se deparar com uma variedade de cursos disponíveis no mercado.
+<br><br>
 Esta trilha reúne seis cursos que podem auxiliar você nesta tarefa, iniciando pelo HTML, que é a base de tudo, pois programar para a Web requer o domínio dos recursos e comandos da linguagem HTML.
+<br><br>
 Você aprenderá a criar e formatar tabelas, frames e formulários, além de documentar páginas.
+<br><br>
 Você conhecerá os componentes básicos de um website e as ferramentas que poderá usar para iniciar o desenvolvimento Web para trabalhar digitalmente, de forma eficaz e segura."
 <p align="right"><a href="https://www.ev.org.br/trilhas-de-conhecimento/crie-um-site-simples">Fonte: Fundação Bradesco</a></p>
