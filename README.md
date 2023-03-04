@@ -2,7 +2,7 @@
 
 <h1 align="Center">Trilha de Conhecimento da Fundação Bradesco - Crie um Site Simples.</h1>
 
-<br>
+<br><br>
 
 <p align="Center">Este repositório tem como objetivo reunir o conteúdo aprendido durante as <strong>Trilhas de Conhecimento da Fundação Bradesco</strong>.</p>
 
