@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Avançado: Modulo 01 - Treino 01</title>
+</head>
+<body>
+    <style>
+        ::selection
+        {
+            background-color: #141420;
+        }
+
+        br
+        {
+            /* Para o usuario não selecionar*/
+            -webkit-user-select:none;
+            -ms-user-select: none;
+            user-select: none; 
+        }
+
+        body
+        {
+            background-color: #1c2129;
+            font-family: sans-serif;
+            text-align: justify;
+            max-width: 500px;
+            min-width: 300px;
+            color: #fdfdfd;
+            line-height: 1.5;
+            padding: 10px;
+            margin: auto;
+        }
+
+        h3
+        {
+            border: 2px solid #f31656;
+            border-radius: 8px;
+            padding: 75px 10px;
+            text-align: center;
+        }
+        
+        p { font-size: 1em; }
+
+        b, i, a { color: #f31656; }
+
+        div
+        {
+            border: 2px solid #f31656;
+            border-radius: 4px;
+        }
+
+        table 
+        {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td
+        {
+            /* border-collapse: collapse; */
+            border: 1px solid #f31656;
+            text-align: left;
+            padding: 4px;
+        }
+        
+        tr:nth-child(even) 
+        {
+            background-color: #141420;
+        }
+
+        #CodeBlock
+        {
+            background-color: #141420;
+            color: #fdfdfd;
+            border-radius: 48px;
+            display: flex;
+            resize: none;
+            margin: auto;
+            width: 90%;
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+
+        #CodeBlock::selection
+        {
+            background-color: #777;
+        }
+
+    </style>
+
+    <h1>HTML - <b>Avançado:</b></h1>
+
+    <h2>• Modulo <b>01</b> - Treino <b>01</b> •</h2>
+    
+    <h3>Criando <i>Tabelas</i> para a minha página <i>web</i>.</h3>
+
+    <p>Estou realizando este exercício <i>(Que não é cobrado pelo curso)</i> como uma forma de treinar os conhecimentos passados pela trilha de conhecimento da Fundação Bradesco.</p>
+    
+    <br><hr><br>
+
+    <div>
+        <table>
+            <caption>Apenas uma Tabela Teste...</caption>
+            <tr>
+                <th>Módulo</th>
+                <th>Possui Exercícios</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <th>01 - </th>
+                <td>Não Possui</td>
+                <td>Feito</td>
+            </tr>
+            <tr>
+                <th>02 -</th>
+                <td>?</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <th>03 -</th>
+                <td>?</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <th>04 -</th>
+                <td>?</td>
+                <td>---</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <h4>Código:</h4>
+
+    <textarea readonly name="Code" id="CodeBlock" cols="50" rows="30">
+
+<table>
+    <caption>Apenas uma Tabela Teste...</caption>
+    <tr>
+        <th>Módulo</th>
+        <th>Possui Exercícios</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <th>01 - </th>
+        <td>Não Possui</td>
+        <td>Feito</td>
+    </tr>
+    <tr>
+        <th>02 -</th>
+        <td>?</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>03 -</th>
+        <td>?</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>04 -</th>
+        <td>?</td>
+        <td>---</td>
+    </tr>
+</table></textarea>
+
+    <br><hr>
+    
+    <p style="text-align: center;"><strong>Conteúdo adaptado para um melhor entendimento de todos...</strong></p>
+</body>
+</html>
