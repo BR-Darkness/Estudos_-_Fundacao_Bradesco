@@ -134,38 +134,70 @@
 
     <br>
 
-    <h4>Código:</h4>
+    <h4>Código HTML:</h4>
 
-    <textarea readonly name="Code" id="CodeBlock" cols="50" rows="30">
+    <textarea readonly name="Code" id="CodeBlock" cols="50" rows="35">
 
-<table>
-    <caption>Apenas uma Tabela Teste...</caption>
-    <tr>
-        <th>Módulo</th>
-        <th>Possui Exercícios</th>
-        <th>Status</th>
-    </tr>
-    <tr>
-        <th>01 - </th>
-        <td>Não Possui</td>
-        <td>Feito</td>
-    </tr>
-    <tr>
-        <th>02 -</th>
-        <td>?</td>
-        <td>---</td>
-    </tr>
-    <tr>
-        <th>03 -</th>
-        <td>?</td>
-        <td>---</td>
-    </tr>
-    <tr>
-        <th>04 -</th>
-        <td>?</td>
-        <td>---</td>
-    </tr>
-</table></textarea>
+<div>
+    <table>
+        <caption>Apenas uma Tabela Teste...</caption>
+        <tr>
+            <th>Módulo</th>
+            <th>Possui Exercícios</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <th>01 - </th>
+            <td>Não Possui</td>
+            <td>Feito</td>
+        </tr>
+        <tr>
+            <th>02 -</th>
+            <td>?</td>
+            <td>---</td>
+        </tr>
+        <tr>
+            <th>03 -</th>
+            <td>?</td>
+            <td>---</td>
+        </tr>
+        <tr>
+            <th>04 -</th>
+            <td>?</td>
+            <td>---</td>
+        </tr>
+    </table>
+</div></textarea>
+
+    <br><h4>Código CSS:</h4><br>
+
+    <textarea readonly name="Code" id="CodeBlock" rows="20">
+
+div
+{
+    border: 2px solid #f31656;
+    border-radius: 4px;
+}
+
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td
+{
+    /* border-collapse: collapse; */
+    border: 1px solid #f31656;
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #141420;
+}
+    </textarea>
 
     <br><hr>
     
