@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Avançado: Modulo 02 - Exercício 01</title>
+</head>
+<body>
+    <style>
+        ::selection
+        {
+            background-color: #141420;
+        }
+
+        br
+        {
+            /* Para o usuario não selecionar*/
+            -webkit-user-select:none;
+            -ms-user-select: none;
+            user-select: none; 
+        }
+
+        body
+        {
+            background-color: #1c2129;
+            font-family: sans-serif;
+            text-align: justify;
+            max-width: 500px;
+            min-width: 300px;
+            color: #fdfdfd;
+            line-height: 1.5;
+            padding: 10px;
+            margin: auto;
+        }
+
+        h3
+        {
+            border: 2px solid #f31656;
+            border-radius: 8px;
+            padding: 75px 10px;
+            text-align: center;
+        }
+        
+        p { font-size: 1em; }
+
+        b, i, a { color: #f31656; }
+
+        #CodeBlock
+        {
+            font: 11px sans-serif;
+            line-height: 2;
+            background-color: #141420;
+            color: #fdfdfd;
+            border-radius: 48px;
+            display: flex;
+            resize: none;
+            margin: auto;
+            width: 90%;
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+
+        #CodeBlock::selection
+        {
+            background-color: #777;
+        }
+
+        form
+        {
+            border: 2px solid #f31656;
+            border-radius: 4px;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        form input
+        {
+            border: 1px solid #f31656;
+            margin: 5px 0px 10px 0px ;
+            border-radius: 4px;
+            padding: 5px 0;
+            width: 100%;
+        }
+
+        form input[type="radio"] { width: auto; }
+        form input[type="reset"], input[type="submit"] { padding: 10px; font-weight: bold; }
+        form input[type="reset"]:hover, input[type="submit"]:hover { background-color: #f31656; }
+
+    </style>
+
+    <h1>HTML - <b>Avançado:</b></h1>
+
+    <h2>• Módulo <b>02</b> - Exercício <b>01</b> •</h2>
+    
+    <h3>Criando <i>Formulários</i> para a minha página <i>web</i>.</h3>
+
+    <p>Com base nos conhecimentos adquiridos nos <i>módulos 1 e 2</i>, desenvolva um código HTML que crie um formulário de cadastramento.</p>
+    
+    <br><hr><br>
+
+    <form action="" method="post">
+        <h3 style="text-align: center;">Exercício <b>Formulário</b>:</h3>
+        <br>
+        <label for="Nome">Nome: </label>
+        <input type="text">
+        <br>
+        <label for="E-mail">E-mail: </label>
+        <input type="email" name="E-mail">
+        <br>
+        <label for="RG">RG: </label>
+        <input type="text">
+        <br>
+        <label for="Login">Login: </label>
+        <input type="text">
+        <label for="Senha">Senha: </label>
+        <input type="password">
+        <br><br>
+        <label for="Sexo">Sexo: </label>
+        <input type="radio" name="Sexo" id="SexF" value="Feminino">
+        <label for="SexF" style="font-weight: 400;">Feminino</label>
+        <input type="radio" name="Sexo" id="SexM" value="Masculino">
+        <label for="SexM" style="font-weight: 400;">Masculino</label>
+        <br><br>
+        <input type="reset" value="Limpar Campos">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <br><hr>
+    
+    <p style="text-align: center;"><strong>Conteúdo adaptado para um melhor entendimento de todos...</strong></p>
+    
+</body>
+</html>
