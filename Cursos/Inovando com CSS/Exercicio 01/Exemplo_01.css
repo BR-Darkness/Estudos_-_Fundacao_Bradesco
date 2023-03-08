@@ -1,0 +1,21 @@
+/* CSS da Atividade Exemplo - 01: */
+
+#Atividade_Ex01
+{
+    background-color: pink;
+}
+
+#Atividade_Ex01 h1
+{
+    font-size: 20px;
+}
+
+#Atividade_Ex01 h2
+{
+    color: red;
+}
+
+#Atividade_Ex01 p
+{
+    margin-left: 50px;
+}

@@ -1,0 +1,47 @@
+/* CSS da Atividade Exemplo - 02 */
+
+#Atividade_Ex02
+{
+    background-color: tan;
+}
+
+#Atividade_Ex02 h1
+{
+    color: maroon;
+}
+
+#Atividade_Ex02 hr
+{
+    /* Maneira que atualmente é feito no HMTL5 */
+    border-color: navy;
+
+    /* Outra forma de se fazer com customização */
+    /* border: 2px solid navy;
+    border-radius: 8px; */
+}
+
+#Atividade_Ex02 p
+{
+    font-size: 16px;
+    margin: 20px;
+}
+
+#Atividade_Ex02 a:visited
+{ 
+    color: yellow; 
+}
+
+#Atividade_Ex02 a:hover
+{
+    color: black;
+}
+
+#Atividade_Ex02 a:link
+{
+    color: green;
+}
+
+#Atividade_Ex02 a:active
+{
+    color: blue;
+}
