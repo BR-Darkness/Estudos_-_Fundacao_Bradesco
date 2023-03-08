@@ -19,7 +19,7 @@ Você também conhecerá a tag META para a inserção de metadados que servem pa
 <br><br>
 Vale saber: nosso conteúdo apresenta exercícios para a fixação dos conceitos apresentados.
 
-<p align="right"><a href="https://www.ev.org.br/cursos/html-basico">Fonte: Fundação Bradesco</a></p>
+<p align="right"><a href="https://www.ev.org.br/cursos/html-avancado">Fonte: Fundação Bradesco</a></p>
 
 ## Conteúdo Programático
 
