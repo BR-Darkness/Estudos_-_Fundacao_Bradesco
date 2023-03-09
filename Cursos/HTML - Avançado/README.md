@@ -6,8 +6,8 @@
 
 # HTML - Avançado
 
-- Duração: 06h 
-- Nível: Intermediário
+- **Duração:** 06h 
+- **Nível:** Intermediário
 
 > Dividido em quatro módulos, este curso traz conceitos que complementam o conteúdo apresentado em nosso curso de HTML – Básico. 
 <br><br>
