@@ -1,0 +1,40 @@
+/* CSS da Atividade Exemplo - 01: */
+
+#Atividade_Ex01
+{
+    background-color: #90CDE6;
+}
+
+#Atividade_Ex01 p
+{
+    color: #89A010;
+}
+
+/* CSS da Atividade Exemplo - 02: */
+
+#Atividade_Ex02
+{
+    background-image: url("img/Imagem_Teste.png");
+}
+
+#Atividade_Ex02 p
+{
+    text-align: center;
+    color: #ffff00;
+}
+
+
+/* CSS da Atividade Exemplo - 03: */
+
+#Atividade_Ex03 *
+{
+    border: 1px solid #181820;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+}
+
+#Atividade_Ex03
+{
+    background-color: #fafaff;
+}
