@@ -6,8 +6,8 @@
 
 # Inovando com CSS
 
-- Duração: 26h
-- Nível: Avançado
+- **Duração:** 26h
+- **Nível:** Avançado
 
 > <br>Dividido em cinco módulos, este conteúdo lhe proporcionará conhecimentos básicos na linguagem de formatação Cascading Style Sheets (CSS). Para isso, apresentamos exemplos de aplicação e exploramos suas principais propriedades e atributos, além de oferecer dicas e curiosidades sobre a evolução HTML/CSS.
 <br><br>
