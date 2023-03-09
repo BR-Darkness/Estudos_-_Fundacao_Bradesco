@@ -6,8 +6,8 @@
 
 # HTML - Básico
 
-- Duração: 11h
-- Nível: Iniciante
+- **Duração:** 11h
+- **Nível:** Iniciante
 
 > Este curso foi desenvolvido para auxiliar na criação de páginas Web, por meio do Hyper Text Markup Language – mais conhecido como HTML. <br><br>
 Para quem nunca ouviu falar dessa linguagem de marcação, explicamos que se trata de uma das mais populares. Aquilo que você vê quando abre uma página na Internet é uma interpretação que seu navegador faz do HTML. 
