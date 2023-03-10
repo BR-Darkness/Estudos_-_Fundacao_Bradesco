@@ -1,0 +1,51 @@
+#Atividade_Ex01, #Atividade_Ex02, #Atividade_Ex03
+{
+    background-color: white;
+}
+
+/* CSS da Atividade Exemplo - 01: */
+
+#Atividade_Ex01 p
+{
+    color: #89A010;
+}
+
+#Atividade_Ex01 a
+{
+    color: blue;
+}
+
+#Atividade_Ex01 a.Virtuais
+{
+    color: #FE0000;
+}
+
+#Atividade_Ex01 a.Estrategia 
+{
+    color: #11CC00;
+}
+
+/* CSS da Atividade Exemplo - 02: */
+
+#Atividade_Ex02 span.alimento
+{
+    color: #F00;
+}
+
+/* CSS da Atividade Exemplo - 03: */
+
+#Atividade_Ex03 h1
+{
+    background-color: #11CC00;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+}
+
+#Atividade_Ex03 p
+{
+    background-color: #ffff00;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px;
+}
