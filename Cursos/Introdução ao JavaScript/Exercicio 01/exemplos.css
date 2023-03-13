@@ -1,0 +1,89 @@
+/* Atividade 01: */
+
+#Atividade_Ex01 p
+{
+    text-align: center;
+}
+
+/* Atividade 02: */
+
+#Atividade_Ex02 form
+{
+    border: 2px solid #0077b5;
+    background-color: #ffd93a;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    color: #1f1f1f;
+    padding: 20px;
+}
+
+#Atividade_Ex02 h3
+{
+    background-color: #181820;
+    color: #fcfcfc;
+}
+
+#Atividade_Ex02 form input
+{
+    border: 1px solid #0077b5;
+    margin: 5px 0px 10px 0px ;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+}
+
+#Atividade_Ex02 form input[type="reset"], #Atividade_Ex02 input[type="button"] 
+{
+    background-color: #0077b5; 
+    font-weight: bold; 
+    color: #fcfcfc;
+    padding: 10px; 
+}
+
+#Atividade_Ex02 form input[type="reset"]:hover, #Atividade_Ex02 input[type="button"]:hover 
+{ 
+    background-color: #004468; 
+}
+
+/* Atividade 03: */
+
+#Atividade_Ex03 form
+{
+    border: 2px solid #f31656;
+    background-color: #fafaff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    color: #1f1f1f;
+    padding: 20px;
+}
+
+#Atividade_Ex03 h3
+{
+    background-color: #181820;
+    color: #fcfcfc;
+}
+
+#Atividade_Ex03 form input
+{
+    border: 1px solid #f31656;
+    margin: 5px 0px 10px 0px ;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+}
+
+#Atividade_Ex03 form input[type="reset"], #Atividade_Ex03 input[type="button"] 
+{
+    background-color: #f31656; 
+    font-weight: bold; 
+    color: #fcfcfc;
+    padding: 10px; 
+}
+
+#Atividade_Ex03 form input[type="reset"]:hover, #Atividade_Ex03 input[type="button"]:hover 
+{ 
+    background-color: #a60f3a; 
+}

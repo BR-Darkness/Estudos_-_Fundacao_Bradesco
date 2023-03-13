@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=image.png, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="exemplos.css">
+    <title>Atividade 01</title>
+</head>
+<body>
+    <h1>Introdução ao <b>JavaScript</b>:</h1>
+
+    <h2>• Capítulo <b>01</b> - Atividade <b>01</b> •</h2>
+    
+    <h3>Estrutura Básica da Linguagem <b>JavaScript</b>.</h3>
+
+    <p>Esta é a <b>primeira</b> atividade do curso "<i>Introdução ao JavaScript</i>" para treinar os conhecimentos passados pela trilha de conhecimento da Fundação Bradesco.</p>
+    
+    <h4>Os Elementos da estrutura JavaScript:</h4>
+    <ul>
+        <li><b>Objeto:</b> São elementos ou sujeitos de uma ação, responsáveis por um comando ou por uma instrução. Por exemplo:</li>
+        
+        <li><b>Método:</b> É uma forma ou um recurso que indica como um objeto será manipulado ou processado. Podemos definir métodos de entrada ou de saída.</li>
+
+        <li><b>Evento:</b> É um recurso de ação aplicado ao objeto.</li>
+
+        <li><b>Propriedade</b> É uma característica específica para tratar um objeto. Por exemplo: a aplicação de funções matemáticas, logarítmicas ou de variações.</li>
+
+        <li><b>Função:</b>  Uma função é um agrupamento de comandos ou instruções, delimitados por <i>{</i>...<i>}</i> (chaves), que serão executados por meio de uma ação. Tal agrupamento é referenciado por uma palavra identificadora, como <i>identificacao()</i>, que pode ser ou não parametrizada, isto é, receber um determinado atributo.</li>
+    </ul>
+
+    <br><hr>
+
+    <h4>Exemplo 01 - Tópico 01:</h4>
+
+    <div id="Atividade_Ex01">
+        <script src="javascript.js"></script>
+    </div><br>
+
+    <li>Insira o seu nome na janela que aparece ao entrar nesta página.</li><br>
+
+    <h4>Exemplo 01 - Tópico 02:</h4>
+
+    <div id="Atividade_Ex02">
+        <form name="Form_Concatenacao" action="" method="post">
+            <h3 style="text-align: center;">Exercício <b>Concatenação de Campos</b>:</h3>
+            <br>
+            <label for="Form_Nome">Insira o seu nome: </label>
+            <input type="text" name="Form_Nome">  
+            <br>
+            <label for="Form_Idade">Insira a sua idade: </label>
+            <input type="number" placeholder="1-120" min="0" max="120" name="Form_Idade">             
+            <br><br>
+            <input type="button" value="Enviar" onclick="Concatenar()">
+            <input type="reset" value="Limpar Campos">
+        </form>        
+    </div><br>
+
+    <li>Exercício praticando condicionais (para validar se os campos estão corretamente preenchidos) e a utilização do método de saída <b>Alert()</b>.</li><br>
+
+    <h4>Exemplo 01 - Tópico 03:</h4>
+
+    <div id="Atividade_Ex03">
+        <form name="Form_Soma" action="" method="post" onchange="Somar()">
+            <h3 style="text-align: center;">Exercício <b>Soma de Valores</b>:</h3>
+            <br>
+            <label for="Form_N1">Insira o primeiro valor: </label>
+            <input type="number" placeholder="Insira o primeiro valor" min="0" max="100" name="Form_N1">  
+            <br>
+            <label for="Form_N2">Insira o segundo valor: </label>
+            <input type="number" placeholder="Insira o segundo valor" min="0" max="100" name="Form_N2">
+            <br>
+            <p style="text-align: center;">O resultado será: <b id="Resultado"></b></p>
+            <input onclick="Somar()" type="reset" value="Limpar Campos">
+        </form>
+    </div><br>
+
+    <br><hr>
+
+    <h4>Links de Referência:</h4>
+    <li><a href="https://www.devmedia.com.br/trabalhando-com-eventos-em-javascript/28521">Trabalhando com eventos em JavaScript</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number">Input type Number</a></li>
+
+    <br><hr>
+    
+    <p style="text-align: center;"><strong>Conteúdo adaptado para um melhor entendimento de todos...</strong></p>
+
+</body>
+</html>
