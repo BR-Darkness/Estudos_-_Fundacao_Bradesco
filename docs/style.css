@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded");
+
+*
+{
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+    background-color: #fdfdfd;
+    font-family: sans-serif;
+    transition: 0.25s;
+    color: #1d1d1d;
+    line-height: 1.5;
+    
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    display: flex;
+}
+
+/* Theme */
+#Theme::before
+{
+    content: "Dark_Mode";
+}
+
+.Dark-Theme
+{
+    background-color: #1c2129;
+    color: #fdfdfd;
+}
+
+.Dark-Theme .Card
+{
+    background-color: #282830;
+}
+
+.Dark-Theme #Theme::before
+{
+    content: "Light_Mode";
+    color: #ff2;
+}
+
+a
+{
+    padding: .75rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f31656;
+}
+
+a:hover
+{
+    color: #0ac;
+}
+
+br, hr, img, span, summary
+{
+    /* Para o usuario não selecionar*/
+    -webkit-user-select:none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+::selection
+{
+    background-color: #777;
+}
+
+/* Menu */
+
+#Menu
+{
+    border-bottom: 2px solid #f31656;
+    background: #2b2d43;
+    min-height: 80px;
+    padding: .5rem;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#MenuItens ul
+{
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0;
+}
+
+#MenuItens li
+{
+    margin: .75em 1em; 
+}
+
+.btn
+{
+    background-color: #f31656;
+    padding: .5rem 1rem;
+    border-radius: 48px;
+    border: 2px solid;
+    font-weight: bold;
+    transition: .25s;
+    color: #fdfdfd;
+    font-size: 14px;
+}
+
+.btn:hover
+{
+    background-color: transparent;
+    color: #f31656;
+}
+
+/* Card */
+
+.Card
+{
+    border: 1px solid #f31656;
+    text-align: justify;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 1em 1em;
+    padding: 20px;
+    padding: 2em;
+}
+
+.Card img
+{
+    box-shadow: #14141460 1px 1px 4px;
+    object-fit: scale-down;
+    border-radius: 8px;
+    margin: 1em auto;
+    max-width: 100%;
+    display: block;
+}
+
+.Card figcaption
+{
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
+
+.Card ul
+{
+    text-align: left;
+    padding: .25em 1em;
+}
+
+.Card li
+{
+    margin: .5em 0;
+}
+
+.Card h1, .Card h2
+{
+    text-align: center;
+    margin: 1em;
+}
+
+.Image-Banner
+{
+    max-height: 200px;
+}
+
+/* Footer */
+
+footer
+{
+    border-top: 2px solid #f31656;
+    background-color: #282830;
+    min-height: 80px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer p
+{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 14px;
+    margin: 1em;
+}
+
+/* Scroll */
+::-webkit-scrollbar 
+{
+    height: 0.75em;
+    width: 0.75em;
+}
+
+::-webkit-scrollbar-track 
+{
+    border: 1px solid #333;
+    background: #1c2129; 
+}
+   
+::-webkit-scrollbar-thumb 
+{
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #777; 
+}
+
+::-webkit-scrollbar-thumb:hover 
+{
+    background: #a60f3a; 
+}
+
+/* Top Button */
+
+.Top-button
+{
+    box-shadow: #14141460 1px 1px 4px;
+    background-color: #f31656;
+    border: 1px solid #fdfdfd;
+    color: #fdfdfd;
+
+    border-radius: 48px;
+    min-height: 48px;
+    min-width: 48px;
+
+    position: fixed;
+    margin: 1em;
+    bottom: 0;
+    right: 0;
+}
