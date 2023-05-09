@@ -61,7 +61,7 @@ a:hover
     color: #0ac;
 }
 
-br, hr, img, span, summary
+br, hr, img, span, summary, .btn
 {
     /* Para o usuario não selecionar*/
     -webkit-user-select:none;
@@ -79,8 +79,8 @@ br, hr, img, span, summary
 #Menu
 {
     border-bottom: 2px solid #f31656;
+    min-height: fit-content;
     background: #2b2d43;
-    min-height: 80px;
     padding: .5rem;
     width: 100%;
     
